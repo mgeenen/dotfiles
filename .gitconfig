@@ -1,4 +1,6 @@
 [alias]
+	# subtree push pull
+	subtreepp = "!sh -c 'git subtree push -P lib/$1 $2 $3 && git subtree pull -m \"[subtree-push-pull] $1\" -P lib/$1 $2 $3 --squash' -"
 
 	# View abbreviated SHA, description, and history graph of the latest 20 commits
 	l = log --pretty=oneline -n 20 --graph --abbrev-commit
@@ -164,5 +166,8 @@
 	pushInsteadOf = "git://gist.github.com/"
 
 [url "git://gist.github.com/"]
-
 	insteadOf = "gist:"
+
+[user]
+	email = nwulf@geenen-it-systeme.de
+	name = Niklas Wulf
