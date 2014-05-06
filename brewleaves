@@ -1,0 +1,16 @@
+bash
+coreutils
+findutils
+git
+grep
+imagemagick
+libidn
+llvm
+mongodb
+moreutils
+mysql
+node
+p7zip
+sshfs
+vim
+wget
