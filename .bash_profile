@@ -4,6 +4,8 @@ export PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH";
 export PATH="/usr/local/Cellar/llvm35/3.5.0/share/clang-3.5/tools/scan-build:$PATH";
 export PATH="$PATH:/usr/local/opt/go/libexec/bin";
 export SDKROOT="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
+export GOPATH="$HOME/Developer/go"
+export PATH="$GOPATH/bin:$PATH"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
