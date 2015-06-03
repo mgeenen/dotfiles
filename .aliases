@@ -1,11 +1,9 @@
 # Docker
-alias tdocker="DOCKER_HOST=\"tcp://192.168.100.131:2375\" docker"
-alias tfig="DOCKER_HOST=\"tcp://192.168.100.131:2375\" fig"
-#alias docker="DOCKER_HOST=tcp://192.168.59.103:2375 docker"
-alias dockerup="boot2docker up && \
-	export DOCKER_TLS_VERIFY=1 && \
-	export DOCKER_HOST=tcp://192.168.59.103:2376 && \
-	export DOCKER_CERT_PATH=/Users/niklas/.boot2docker/certs/boot2docker-vm"
+alias docker-setup-boot2docker="export DOCKER_TLS_VERIFY=1 && \
+        export DOCKER_HOST=tcp://192.168.59.103:2376 && \
+        export DOCKER_CERT_PATH=/Users/niklas/.boot2docker/certs/boot2docker-vm"
+alias docker-setup-testing="export DOCKER_HOST=\"tcp://testing-nwulf:2375\""
+alias docker-setup-atlassian="export DOCKER_HOST=\"tcp://10.10.10.130:2375\""
 
 # Easier navigation: .., ..., ...., ....., ~ and -
 alias ..="cd .."
