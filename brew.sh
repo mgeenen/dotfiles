@@ -52,7 +52,7 @@ brew cask install iterm2
 brew cask install java
 brew cask install qt-creator
 brew cask install sequel-pro
-brew cask install sublime-text3
+brew cask install caskroom/versions/sublime-text3
 brew cask install the-unarchiver
 brew cask install tunnelblick
 brew cask install virtualbox
