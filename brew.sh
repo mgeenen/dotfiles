@@ -18,7 +18,7 @@ brew upgrade --all
 
 # Install more recent versions of some OS X tools.
 brew install bash
-echo "/usr/local/bin/bash" >> /etc/shells
+echo "/usr/local/bin/bash" | sudo tee -a /etc/shells
 chsh -s /usr/local/bin/bash
 brew tap homebrew/versions
 brew install bash-completion2
