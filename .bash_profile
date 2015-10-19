@@ -6,6 +6,7 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin";
 export SDKROOT="/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk";
 export GOPATH="$HOME/Developer/go"
 export PATH="$GOPATH/bin:$PATH"
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
 
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
