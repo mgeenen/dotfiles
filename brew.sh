@@ -37,7 +37,6 @@ brew install openssh
 brew install ssh-copy-id
 brew install node
 brew install openssl
-brew install qt5
 brew install wget --with-iri
 brew install openssh
 brew install p7zip
@@ -50,7 +49,6 @@ brew cask install google-chrome
 brew cask install gpgtools
 brew cask install iterm2
 brew cask install java
-brew cask install qt-creator
 brew cask install sequel-pro
 brew cask install caskroom/versions/sublime-text3
 brew cask install the-unarchiver
