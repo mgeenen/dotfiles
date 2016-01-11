@@ -35,7 +35,7 @@ brew install docker-machine
 brew install mariadb
 brew install openssh
 brew install ssh-copy-id
-brew install node
+brew install node4-lts
 brew install openssl
 brew install wget --with-iri
 brew install openssh
