@@ -43,7 +43,6 @@ brew install p7zip
 
 # Install casks
 brew install caskroom/cask/brew-cask
-brew cask install chitchat
 brew cask install dropbox
 brew cask install google-chrome
 brew cask install gpgtools
