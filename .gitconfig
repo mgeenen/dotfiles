@@ -175,6 +175,3 @@
 [url "git://gist.github.com/"]
 	insteadOf = "gist:"
 
-[user]
-	email = nwulf@geenen-it-systeme.de
-	name = Niklas Wulf
