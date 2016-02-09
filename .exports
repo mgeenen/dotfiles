@@ -1,6 +1,14 @@
 # Make vim the default editor.
 export EDITOR='nano';
 
+# Add `~/bin` to the `$PATH`
+export PATH="$HOME/bin:$PATH";
+export PATH="/usr/local/bin:$PATH";
+export PATH="/usr/local/opt/coreutils/libexec/gnubin:$PATH";
+
+# Set homebrew cask application directory
+export HOMEBREW_CASK_OPTS="--appdir=/Applications"
+
 # Enable persistent REPL history for `node`.
 export NODE_REPL_HISTORY=~/.node_history;
 # Allow 32³ entries; the default is 1000.

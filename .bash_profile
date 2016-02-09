@@ -1,11 +1,3 @@
-# Add `~/bin` to the `$PATH`
-export PATH="$HOME/bin:$PATH";
-export PATH="/usr/local/bin:/usr/local/opt/coreutils/libexec/gnubin:$PATH";
-export PATH="$PATH:/usr/local/opt/go/libexec/bin";
-export GOPATH="$HOME/Developer/go"
-export PATH="$GOPATH/bin:$PATH"
-export HOMEBREW_CASK_OPTS="--appdir=/Applications"
-
 # Load the shell dotfiles, and then some:
 # * ~/.path can be used to extend `$PATH`.
 # * ~/.extra can be used for other settings you don’t want to commit.
