@@ -35,6 +35,7 @@ brewdo brew install vegeta
 brewdo brew install curl
 brewdo brew install wget
 brewdo brew install openssh
+brewdo brew install git
 brewdo brew install grep
 
 # Remove outdated versions from the cellar.
