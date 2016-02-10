@@ -27,7 +27,7 @@ alias ...="cd .. ; cd .."
 
 alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias myip="dig +short myip.opendns.com @resolver1.opendns.com"
-alias -- .='pwd'
+#alias -- .='pwd'
 alias -- ....="cd .. ; cd .. ; cd .."
 alias -- ...="cd .. ; cd .."
 alias -- ..="cd .. ;"
