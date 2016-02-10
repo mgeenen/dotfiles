@@ -1,0 +1,3 @@
+[submodule "brewdo"]
+	path = brewdo
+	url = https://github.com/zigg/brewdo.git
