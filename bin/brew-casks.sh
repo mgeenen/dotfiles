@@ -26,7 +26,7 @@ brewdo brew cask install --appdir=/Applications virtualbox
 brewdo brew cask install --appdir=/Applications virtualbox-extension-pack
 
 # Install font
-brewdo brew cask install font-hack
+brewdo brew cask install --font-dir=/Library/Fonts font-hack
 
 # Remove outdated versions from the cellar.
 brewdo brew cleanup
