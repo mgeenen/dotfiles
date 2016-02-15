@@ -37,6 +37,7 @@ brewdo brew install wget
 brewdo brew install openssh
 brewdo brew install git
 brewdo brew install grep
+brewdo brew install tree
 
 # Remove outdated versions from the cellar.
 brewdo brew cleanup
