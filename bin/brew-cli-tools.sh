@@ -42,3 +42,6 @@ brewdo brew install tree
 # Remove outdated versions from the cellar.
 brewdo brew cleanup
 brewdo brew cask cleanup
+
+# enable `locate`
+sudo launchctl load -w /System/Library/LaunchDaemons/com.apple.locate.plist
