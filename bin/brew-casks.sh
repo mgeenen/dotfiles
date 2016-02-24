@@ -26,6 +26,7 @@ brewdo brew cask install --appdir=/Applications virtualbox
 brewdo brew cask install --appdir=/Applications virtualbox-extension-pack
 
 # Quicklook plugins yeah
+sudo chmod 775 /Library/QuickLook
 # leider kaputt: brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlcolorcode
 brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlstephen
 brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlmarkdown
@@ -37,6 +38,7 @@ brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlimagesize
 qlmanage -r
 
 # Install font
+brewdo brew tap caskroom/fonts
 brewdo brew cask install --font-dir=/Library/Fonts font-hack
 
 # Remove outdated versions from the cellar.
