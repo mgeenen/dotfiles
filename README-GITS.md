@@ -27,7 +27,7 @@
   Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
 1. Install Qt (online installer)
   1. beautifier aktivieren + clang-format konfigurieren (Use predifined Style: File)
-1. email einstellungen
+1. email einstellungen (checken ob gpg läuft)
 1. docker-machine create -d virtualbox default
 1. docker-machine ip nach /etc/hosts
 
