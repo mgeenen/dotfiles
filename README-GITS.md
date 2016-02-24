@@ -1,13 +1,32 @@
+OS X install
+============
+
+1. UEFI settings:
+  - Load optimized defaults
+  - VT-d: disable
+  - XHCI: Auto statt "Smart auto"
+  - EHCI: enable
+2. Stick booten
+3. Utilities -> Disk Utility -> SSD komplett löschen:
+  - Name: OS X
+  - GUID partitionstabelle
+  - OS X Extended (Journaled)
+4. Installieren auf Platte
+
 Post OS X install
 =================
 
 1. Von Stick booten
-1. Multibeast
+1. Benutzer anlegen:
+  - Voller Name: Niklas Wulf
+  - Nutzername: nwulf
+  - iCloud jeder wie er möchte
+1. Multibeast vom Stick starten
   - Quickstart UEFI boot mode anklicken -> Build -> Install
 1. Booten ohne stick
-1. Falls nicht bootet:
+1. Falls er nicht bootet:
   - Von Stick booten
-  - NVidia web driver installieren
+  - NVidia web driver installieren (ist aufm stick) -> reboot ohne stick
 1. Falls netzwerk nicht mehr functioniert:
   - RealtekRTL8111 aus Multibeast installieren (je nach Mainboard am besten prüfen, ob anderer Treiber)
 
@@ -18,10 +37,10 @@ Post post install
 1. Systemeinstellungen wie gewünscht
   - Maus -> Scrollrichtung natürlich aus
   - Mission Control -> Programme gruppieren + MissionControl:Maustaste 4 + Desktop:Maustaste 5
+  - Sicherheit -> Schloss öffnen -> Apps keine Einschränkungen
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
 1. AppStore apps installieren (XCode, Telegram, The Unarchiver)
-1. iStat Menus installiert
-1. dotfiles
+1. dotfiles: `mkdir -p ~/Developer/Misc && cd ~/Developer/Misc && git clone https://github.com/Kampfgnom/dotfiles && cd dotfiles`
 
 ````
   source bootstrap.sh
@@ -32,20 +51,27 @@ Post post install
   bin/brew-node-setup.sh
 ````
 
-1. TimeMachine backup wiederherstellen:
-  1. zum production-server-osx connecten, timemachine mounten
-  1. ~/Developer vom TimeMachine geholt
-  1. GPG Keychain aus TimeMachineBackup:
+6. Software vom Stick
+  1. iStat Menus
+    - iStat Uhr einrichten (mit ordentlichem Format etc) und Systemuhr unter Systemeinstellungen -> Datum&Uhrzeit ausblenden
+  1. Tower
+    - Einstellungen: always offer to stash -> false, git binary: /usr/local/bin/git, username+email
+1. TimeMachine backup mounten + daten rausholen:
+  - zum production-server-osx connecten -> timemachine mounten -> sparsebundle des rechners öffnen
+  - Eure eigenen daten rausholen, muss jeder selber wissen
+1. `ssh-keygen -t rsa -b 4096` # (Stash does not support ed25519)
+  Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
+1. Install Qt nach ~/Developer/Qt (online installer)
+  1. beautifier aktivieren + clang-format konfigurieren (Use predifined Style: File)
+  1. sort tool (See init/sort-tool-screenshot.png) + Keyboadshortcut CTRL+CMD+SHIFT+S
+1. email einstellungen
+  1. GPG Keychain aus TimeMachineBackup wiederherstellen
     `rsync -avx /Volumes/Time\ Machine\ Backups/Backups.backupdb/pc02/Latest/OS\ X/Users/niklas/.gnupg .`
+    - Hat bei mir erst nach einem Neustart auch in Mail funktioniert
   1. Mail Signatur (nach: http://matt.coneybeare.me/how-to-make-an-html-signature-in-apple-mail-for-mavericks-os-x-10-dot-9/)
     1. Signatur vom TimeMachine holen: `open /Volumes/Time\ Machine\ Backups/Backups.backupdb/pc02/Latest/OS\ X/Users/niklas/Library/Mail/V2/MailData/Signatures/`
       - signatur in Sublime oder so öffnen
-    1. Signatur INHALT in eine aus mail heraus NEU ERSTELLTE signatur pasten und locken: `open Library/Mail/V3/MailData/Signatures/`
-1. `ssh-keygen -t rsa -b 4096` # (Stash does not support ed25519)
-  Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
-1. Install Qt (online installer)
-  1. beautifier aktivieren + clang-format konfigurieren (Use predifined Style: File)
-1. email einstellungen (checken ob gpg läuft)
+    1. Signatur INHALT in eine aus mail heraus NEU ERSTELLTE signatur pasten und die signatur locken: `open Library/Mail/V3/MailData/Signatures/`
 1. docker-machine create -d virtualbox default
 1. docker-machine ip nach /etc/hosts
 1. Falls Spotlight im Arsch ist: `mdutil -E`
