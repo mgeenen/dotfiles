@@ -1,4 +1,20 @@
-1. sudo trimforce enable -> restart
+Post OS X install
+=================
+
+1. Von Stick booten
+1. Multibeast
+  - Quickstart UEFI boot mode anklicken -> Build -> Install
+1. Booten ohne stick
+1. Falls nicht bootet:
+  - Von Stick booten
+  - NVidia web driver installieren
+1. Falls netzwerk nicht mehr functioniert:
+  - RealtekRTL8111 aus Multibeast installieren (je nach Mainboard am besten prüfen, ob anderer Treiber)
+
+Post post install
+=================
+
+1. sudo trimforce enable -> restart -> checken ob TRIM enabled ist (Apfel Menü -> Über diesen Mac -> Systemreport -> SATA -> TRIM Unterstützung: Ja)
 1. AppStore apps installieren (XCode aus dmg ist mist)
 1. Systemeinstellungen wie gewünscht
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
