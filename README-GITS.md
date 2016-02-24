@@ -67,7 +67,7 @@ Post post install
   Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
 1. Install Qt nach ~/Developer/Qt (online installer)
   1. Nur Qt 5.5 clang_64 + Qt Creator, sonst alles abwählen
-  1. beautifier aktivieren + clang-format konfigurieren (Use predifined Style: File)
+  1. beautifier aktivieren + clang-format konfigurieren (Pfad: /usr/local/bin/clang-format, Use predifined Style: File)
   1. sort tool (See init/sort-tool-screenshot.png) + Keyboadshortcut CTRL+CMD+SHIFT+S
 1. email einstellungen
   1. GPG Keychain aus TimeMachineBackup wiederherstellen
