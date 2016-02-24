@@ -76,7 +76,7 @@ Post post install
   1. Mail Signatur (das hier lesen!: http://matt.coneybeare.me/how-to-make-an-html-signature-in-apple-mail-for-mavericks-os-x-10-dot-9/)
     1. Signatur vom TimeMachine holen: `open /Volumes/Time\ Machine\ Backups/Backups.backupdb/pc02/Latest/OS\ X/Users/niklas/Library/Mail/V2/MailData/Signatures/`
       - signatur in Sublime oder so öffnen
-    1. Signatur INHALT in eine aus mail heraus NEU ERSTELLTE signatur pasten und die signatur locken: `open Library/Mail/V3/MailData/Signatures/`
+    1. Signatur INHALT (ab <style>) in eine aus mail heraus NEU ERSTELLTE signatur pasten (dabei header stehen lassen) und die signatur locken: `open Library/Mail/V3/MailData/Signatures/`
 1. docker-machine create -d virtualbox default
 1. docker-machine ip nach /etc/hosts
 1. Falls Spotlight im Arsch ist: `sudo mdutil -E /` oder in Systemeinstellungen -> spotlight -> haken an und abwählen oder komplette festplatte zu ausnahmen hinzufügen und direkt wieder löschen
