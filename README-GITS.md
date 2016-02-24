@@ -18,8 +18,84 @@
 1. Install Qt (online installer)
   1. beautifier aktivieren + clang-format konfigurieren
 1. email einstellungen
-1. Sublime Text package
 1. docker-machine create -d virtualbox default
-1. npm
-  nodemon
 1. docker-machine ip nach /etc/hosts
+
+sublime-text packages
+=====================
+
+1. https://packagecontrol.io/installation#st3
+1. Packages:
+  - DocBlockr
+  - Dockerfile Syntax
+  - EditorConfig
+  - GitGutter
+  - JsFormat
+  - Markdown Extended
+  - Markdown Preview
+  - nginx
+  - QMakeProject
+  - SideBarEnhancements
+  - Theme - Soda
+  - Theme - Seti_UI
+  - SublimeLinter
+  - SublimeLinter-jshint
+  - SublimeLinter-json
+  - Swift for F*king Sublime
+1. Preferences - User
+{
+  "caret_extra_bottom": 1,
+  "caret_extra_top": 1,
+  "caret_extra_width": 1,
+  "color_scheme": "Packages/User/SublimeLinter/Monokai (SL).tmTheme",
+  "detect_indentation": false,
+  "draw_white_space": "all",
+  "font_face": "Hack",
+  "font_size": 14,
+  "highlight_line": true,
+  "highlight_modified_tabs": true,
+  "hot_exit": false,
+  "ignored_packages":
+  [
+    "Markdown",
+    "Vintage"
+  ],
+  "line_padding_bottom": 5,
+  "match_brackets": true,
+  "match_brackets_angle": true,
+  "overlay_scroll_bars": "enabled",
+  "rulers":
+  [
+    180
+  ],
+  "show_encoding": true,
+  "show_line_endings": true,
+  "soda_classic_tabs": true,
+  "theme": "Soda Dark 3.sublime-theme"
+}
+1. Preferences - Package Settings - JsFormat - User
+{
+  // jsformat options
+  "format_on_save": true,
+  "format_selection": false,
+  "jsbeautifyrc_files": true,
+  "ignore_sublime_settings": true,
+  "format_on_save_extensions": ["js", "json"]
+}
+1. Und jetzt kommt der Clou :)
+  - In /Users/nwulf/Library/Application\ Support/Sublime\ Text\ 3/Packages
+    Seti_UI nach "Theme - Soda" umbenennen
+  -> Sidebar Icons!
+1. Preferences - Package Settings - MarkdownEditing - User
+{
+  "extensions":
+  [
+    "mmd",
+    "md",
+    "markdown"
+  ],
+  "color_scheme": "Packages/MarkdownEditing/MarkdownEditor-Dark.tmTheme",
+  "line_numbers": true,
+  "highlight_line": true
+}
+
