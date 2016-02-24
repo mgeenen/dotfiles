@@ -18,3 +18,7 @@ curl -L https://www.npmjs.org/install.sh | sh
 brewdo brew cleanup
 brewdo brew cask cleanup
 
+npm install --global npm
+npm install --global jshint
+npm install --global nodemon
+npm install --global node-inspector
