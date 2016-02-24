@@ -25,6 +25,17 @@ brewdo brew cask install --appdir=/Applications tunnelblick
 brewdo brew cask install --appdir=/Applications virtualbox
 brewdo brew cask install --appdir=/Applications virtualbox-extension-pack
 
+# Quicklook plugins yeah
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlcolorcode 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlstephen 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlmarkdown 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ quicklook-json 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlprettypatch 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ quicklook-csv 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ betterzipql 
+brewdo brew cask install --qlplugindir=/Library/QuickLook/ qlimagesize 
+qlmanage -r
+
 # Install font
 brewdo brew cask install --font-dir=/Library/Fonts font-hack
 
