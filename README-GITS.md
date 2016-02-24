@@ -40,9 +40,13 @@ Post post install
   - Sicherheit -> Schloss öffnen -> Apps keine Einschränkungen
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
 1. AppStore apps installieren (XCode, Telegram, The Unarchiver)
-1. dotfiles: `mkdir -p ~/Developer/Misc && cd ~/Developer/Misc && git clone https://github.com/Kampfgnom/dotfiles && cd dotfiles`
-
+1. dotfiles:
 ````
+  mkdir -p ~/Developer/Misc
+  cd ~/Developer/Misc
+  git clone https://github.com/Kampfgnom/dotfiles
+  cd dotfiles
+  git submodule update --init
   source bootstrap.sh
   source .osx
   bin/brew-setup.sh
