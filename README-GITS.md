@@ -86,7 +86,7 @@ sublime-text packages
   - EditorConfig
   - GitGutter
   - JsFormat
-  - Markdown Extended
+  - MarkdownEditing
   - Markdown Preview
   - nginx
   - QMakeProject
