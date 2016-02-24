@@ -4,14 +4,16 @@
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
 1. iStat Menus installiert
 1. dotfiles
-  ````
+
+````
   source bootstrap.sh
   source .osx
   bin/brew-setup.sh
   bin/brew-cli-tools.sh
   bin/brew-casks.sh
   bin/brew-node-setup.sh
-  ````
+````
+
 1. TimeMachine backup wiederherstellen:
   1. zum production-server-osx connecten, timemachine mounten
   1. ~/Developer vom TimeMachine geholt
