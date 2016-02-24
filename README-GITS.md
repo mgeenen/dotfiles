@@ -59,13 +59,14 @@ Post post install
   1. iStat Menus
     - iStat Uhr einrichten (mit ordentlichem Format etc) und Systemuhr unter Systemeinstellungen -> Datum&Uhrzeit ausblenden
   1. Tower
-    - Einstellungen: always offer to stash -> false, git binary: /usr/local/bin/git, username+email
+    - Einstellungen: always offer to stash -> false, always update submodules -> true, git binary: /usr/local/bin/git, username+email
 1. TimeMachine backup mounten + daten rausholen:
   - zum production-server-osx connecten -> timemachine mounten -> sparsebundle des rechners öffnen
   - Eure eigenen daten rausholen, muss jeder selber wissen
 1. `ssh-keygen -t rsa -b 4096` # (Stash does not support ed25519)
   Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
 1. Install Qt nach ~/Developer/Qt (online installer)
+  1. Nur Qt 5.5 clang_64 + Qt Creator, sonst alles abwählen
   1. beautifier aktivieren + clang-format konfigurieren (Use predifined Style: File)
   1. sort tool (See init/sort-tool-screenshot.png) + Keyboadshortcut CTRL+CMD+SHIFT+S
 1. email einstellungen
