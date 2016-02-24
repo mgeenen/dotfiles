@@ -43,6 +43,7 @@ sublime-text packages
   - SublimeLinter-json
   - Swift for F*king Sublime
 1. Preferences - User
+````
 {
   "caret_extra_bottom": 1,
   "caret_extra_top": 1,
@@ -73,7 +74,9 @@ sublime-text packages
   "soda_classic_tabs": true,
   "theme": "Soda Dark 3.sublime-theme"
 }
+````
 1. Preferences - Package Settings - JsFormat - User
+````
 {
   // jsformat options
   "format_on_save": true,
@@ -82,11 +85,13 @@ sublime-text packages
   "ignore_sublime_settings": true,
   "format_on_save_extensions": ["js", "json"]
 }
+````
 1. Und jetzt kommt der Clou :)
   - In /Users/nwulf/Library/Application\ Support/Sublime\ Text\ 3/Packages
     Seti_UI nach "Theme - Soda" umbenennen
   -> Sidebar Icons!
 1. Preferences - Package Settings - MarkdownEditing - User
+````
 {
   "extensions":
   [
@@ -98,4 +103,5 @@ sublime-text packages
   "line_numbers": true,
   "highlight_line": true
 }
+````
 
