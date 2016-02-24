@@ -78,7 +78,7 @@ Post post install
     1. Signatur INHALT in eine aus mail heraus NEU ERSTELLTE signatur pasten und die signatur locken: `open Library/Mail/V3/MailData/Signatures/`
 1. docker-machine create -d virtualbox default
 1. docker-machine ip nach /etc/hosts
-1. Falls Spotlight im Arsch ist: `mdutil -E`
+1. Falls Spotlight im Arsch ist: `sudo mdutil -E /` oder in Systemeinstellungen -> spotlight -> haken an und abwählen oder komplette festplatte zu ausnahmen hinzufügen und direkt wieder löschen
 
 sublime-text packages
 =====================
