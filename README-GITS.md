@@ -15,9 +15,9 @@ Post post install
 =================
 
 1. sudo trimforce enable -> restart -> checken ob TRIM enabled ist (Apfel Menü -> Über diesen Mac -> Systemreport -> SATA -> TRIM Unterstützung: Ja)
-1. AppStore apps installieren (XCode aus dmg ist mist)
 1. Systemeinstellungen wie gewünscht
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
+1. AppStore apps installieren (XCode, Telegram, The Unarchiver)
 1. iStat Menus installiert
 1. dotfiles
 
@@ -46,6 +46,7 @@ Post post install
 1. email einstellungen (checken ob gpg läuft)
 1. docker-machine create -d virtualbox default
 1. docker-machine ip nach /etc/hosts
+1. Falls Spotlight im Arsch ist: `mdutil -E`
 
 sublime-text packages
 =====================
