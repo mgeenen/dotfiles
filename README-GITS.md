@@ -97,7 +97,7 @@ sublime-text packages
   - QMakeProject
   - SideBarEnhancements
   - Theme - Soda
-  - Theme - Seti_UI
+  - Seti_UI
   - SublimeLinter
   - SublimeLinter-jshint
   - SublimeLinter-json
