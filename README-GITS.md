@@ -150,7 +150,7 @@ sublime-text packages
   - In ~/Library/Application\ Support/Sublime\ Text\ 3/Packages
     Seti_UI nach "Theme - Soda" umbenennen
   -> Sidebar Icons!
-1. SublimeText menu - Preferences - Package Settings - MarkdownEditing - User
+1. SublimeText menu - Preferences - Package Settings - MarkdownEditing - MarkdownEditing (Standard settings) - User
 ````
 {
   "extensions":
