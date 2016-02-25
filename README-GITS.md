@@ -7,6 +7,7 @@ OS X install
   - XHCI: Auto statt "Smart auto"
   - EHCI: enable
 2. Stick booten
+  - Falls nicht bootet: Im bootloader zu den BootArgs hinzufügen: nv_disable=1
 3. Utilities -> Disk Utility -> SSD komplett löschen:
   - Name: OS X
   - GUID partitionstabelle
