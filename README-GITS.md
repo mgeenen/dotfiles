@@ -102,7 +102,7 @@ sublime-text packages
   - SublimeLinter-jshint
   - SublimeLinter-json
   - Swift for F*king Sublime
-1. Preferences - User
+1. SublimeText menu - Preferences - Settings - User
 ````
 {
   "caret_extra_bottom": 1,
@@ -135,7 +135,7 @@ sublime-text packages
   "theme": "Soda Dark 3.sublime-theme"
 }
 ````
-1. Preferences - Package Settings - JsFormat - User
+1. SublimeText menu - Preferences - Package Settings - JsFormat - User
 ````
 {
   // jsformat options
@@ -150,7 +150,7 @@ sublime-text packages
   - In /Users/nwulf/Library/Application\ Support/Sublime\ Text\ 3/Packages
     Seti_UI nach "Theme - Soda" umbenennen
   -> Sidebar Icons!
-1. Preferences - Package Settings - MarkdownEditing - User
+1. SublimeText menu - Preferences - Package Settings - MarkdownEditing - User
 ````
 {
   "extensions":
