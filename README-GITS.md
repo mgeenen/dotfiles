@@ -65,7 +65,7 @@ Post post install
   - zum production-server-osx connecten -> timemachine mounten -> sparsebundle des rechners öffnen
   - Eure eigenen daten rausholen, muss jeder selber wissen
 1. `ssh-keygen -t rsa -b 4096` # (Stash does not support ed25519)
-  Ab nach Stash, github, etc damit (alte keys womöglich entfernen)
+  - [In Stash eintrage](https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html)
 1. Install Qt nach ~/Developer/Qt (online installer)
   1. Nur Qt 5.5 clang_64 + Qt Creator, sonst alles abwählen
   1. beautifier aktivieren + clang-format konfigurieren (Pfad: /usr/local/bin/clang-format, Use predifined Style: File)
