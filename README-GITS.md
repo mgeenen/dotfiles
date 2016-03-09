@@ -39,6 +39,7 @@ Post post install
   - Maus -> Scrollrichtung natürlich aus
   - Mission Control -> Programme gruppieren + MissionControl:Maustaste 4 + Desktop:Maustaste 5
   - Sicherheit -> Schloss öffnen -> Apps keine Einschränkungen
+  - Tastatur: Sondertasten -> Caps-lock "No action" ist nett
 1. git ausführen -> command line tools werden installiert -> sudo git -> agree to AGB
 1. AppStore apps installieren (XCode, Telegram, The Unarchiver)
 1. dotfiles:
