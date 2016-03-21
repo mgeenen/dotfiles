@@ -104,6 +104,7 @@ sublime-text packages
   - SublimeLinter-jshint
   - SublimeLinter-json
   - Swift for F*king Sublime
+  - SyncedSidebar
 1. SublimeText menu - Preferences - Settings - User
 ````
 {
