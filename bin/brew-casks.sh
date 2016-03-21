@@ -18,6 +18,7 @@ brewdo brew cask install --appdir=/Applications google-chrome
 brewdo brew cask install --appdir=/Applications gpgtools
 brewdo brew cask install --appdir=/Applications iterm2
 brewdo brew cask install --appdir=/Applications java
+brewdo brew cask install --appdir=/Applications postman
 brewdo brew cask install --appdir=/Applications rescuetime
 brewdo brew cask install --appdir=/Applications sequel-pro
 brewdo brew cask install --appdir=/Applications the-unarchiver
