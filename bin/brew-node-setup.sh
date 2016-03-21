@@ -22,3 +22,4 @@ npm install --global npm
 npm install --global jshint
 npm install --global nodemon
 npm install --global node-inspector
+npm install --global js-beautify
