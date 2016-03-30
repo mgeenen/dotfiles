@@ -13,7 +13,6 @@ brewdo brew cask install --appdir=/Applications caskroom/versions/sublime-text3
 brewdo brew cask install --appdir=/Applications cocoapods
 brewdo brew cask install --appdir=/Applications disk-inventory-x
 brewdo brew cask install --appdir=/Applications dropbox
-brewdo brew cask install --appdir=/Applications firefox
 brewdo brew cask install --appdir=/Applications google-chrome
 brewdo brew cask install --appdir=/Applications gpgtools
 brewdo brew cask install --appdir=/Applications iterm2
