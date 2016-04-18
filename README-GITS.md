@@ -80,7 +80,6 @@ Post post install
       - signatur in Sublime oder so öffnen
     1. Signatur INHALT (ab `<style ...`) in eine aus mail heraus NEU ERSTELLTE signatur pasten (dabei header stehen lassen) und die signatur locken: `open Library/Mail/V3/MailData/Signatures/`
 1. docker-machine create -d virtualbox default
-1. docker-machine ip nach /etc/hosts
 1. Falls Spotlight im Arsch ist: `sudo mdutil -E /` oder in Systemeinstellungen -> spotlight -> haken an und abwählen oder komplette festplatte zu ausnahmen hinzufügen und direkt wieder löschen
 
 sublime-text packages
