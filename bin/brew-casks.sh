@@ -21,7 +21,6 @@ brewdo brew cask install --appdir=/Applications postman
 brewdo brew cask install --appdir=/Applications rescuetime
 brewdo brew cask install --appdir=/Applications sequel-pro
 brewdo brew cask install --appdir=/Applications the-unarchiver
-brewdo brew cask install --appdir=/Applications tunnelblick
 brewdo brew cask install --appdir=/Applications virtualbox
 brewdo brew cask install --appdir=/Applications virtualbox-extension-pack
 
