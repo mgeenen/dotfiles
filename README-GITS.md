@@ -69,7 +69,17 @@ Post post install
   - [In Stash eintrage](https://confluence.atlassian.com/bitbucketserver/ssh-user-keys-for-personal-use-776639793.html)
 1. Install Qt nach ~/Developer/Qt (online installer)
   1. Nur Qt 5.5 clang_64 + Qt Creator, sonst alles abwählen
-  1. beautifier aktivieren + clang-format konfigurieren (Pfad: /usr/local/bin/clang-format, Use predifined Style: File)
+  1. beautifier:
+    - Qt Creator starten
+    - Menü -> QtCreator -> About Plugins -> C++ -> Beautifier anhaken
+    - Qt Creator neustarten
+    - Qt Creator -> Einstellungen -> Beautifier -> clang-format:
+      - Pfad: /usr/local/bin/clang-format, 
+      - Use predifined Style: File
+      - Apply
+    - ShortCut einrichten
+      - QtCreator Einstellungen -> Environment -> Keyboard -> clang-format -> Format File
+      - Cmd + Ä machen wir da
   1. sort tool (See init/sort-tool-screenshot.png) + Keyboadshortcut CTRL+CMD+SHIFT+S
 1. email einstellungen
   1. GPG Keychain aus TimeMachineBackup wiederherstellen
