@@ -9,10 +9,17 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install casks
+brewdo brew cask install --appdir=/Applications firefox
+brewdo brew cask install --appdir=/Applications google-chrome
+brewdo brew cask install --appdir=/Applications filezilla
+brewdo brew cask install --appdir=/Applications gimp
+brewdo brew cask install --appdir=/Applications hex-fiend
+brewdo brew cask install --appdir=/Applications libreoffice
 brewdo brew cask install --appdir=/Applications sublime-text
 brewdo brew cask install --appdir=/Applications disk-inventory-x
 brewdo brew cask install --appdir=/Applications gpgtools
 brewdo brew cask install --appdir=/Applications iterm2
+brewdo brew cask install --appdir=/Applications sqlitebrowser
 brewdo brew cask install --appdir=/Applications postman
 brewdo brew cask install --appdir=/Applications sequel-pro
 brewdo brew cask install --appdir=/Applications the-unarchiver
@@ -33,7 +40,7 @@ qlmanage -r
 
 # Install font
 brewdo brew tap caskroom/fonts
-brewdo brew cask install --font-dir=/Library/Fonts font-hack
+#brewdo brew cask install --font-dir=/Library/Fonts font-hack
 
 # Remove outdated versions from the cellar.
 brewdo brew cleanup
