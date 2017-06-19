@@ -9,7 +9,7 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # move some stuff out of our way
-sudo mv /usr/local /usr/local.save
+#sudo mv /usr/local /usr/local.save
 
 # install brewdo
 cd brewdo
@@ -30,5 +30,5 @@ sudo chown -R _homebrew /opt/homebrew-cask
 brewdo brew cleanup
 
 # re-add stuff from earlier
-sudo mv /usr/local.save/bin/* /usr/local/bin/
-sudo rm -Rf /usr/local.save/
+#sudo mv /usr/local.save/bin/* /usr/local/bin/
+#sudo rm -Rf /usr/local.save/

@@ -9,16 +9,11 @@ sudo -v
 while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install casks
-brewdo brew cask install --appdir=/Applications caskroom/versions/sublime-text3
-brewdo brew cask install --appdir=/Applications cocoapods
+brewdo brew cask install --appdir=/Applications sublime-text
 brewdo brew cask install --appdir=/Applications disk-inventory-x
-brewdo brew cask install --appdir=/Applications dropbox
-brewdo brew cask install --appdir=/Applications google-chrome
 brewdo brew cask install --appdir=/Applications gpgtools
 brewdo brew cask install --appdir=/Applications iterm2
-brewdo brew cask install --appdir=/Applications java
 brewdo brew cask install --appdir=/Applications postman
-brewdo brew cask install --appdir=/Applications rescuetime
 brewdo brew cask install --appdir=/Applications sequel-pro
 brewdo brew cask install --appdir=/Applications the-unarchiver
 brewdo brew cask install --appdir=/Applications virtualbox
