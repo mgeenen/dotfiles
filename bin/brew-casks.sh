@@ -10,6 +10,7 @@ while true; do sudo -n true; sleep 60; kill -0 "$$" || exit; done 2>/dev/null &
 
 # Install casks
 brewdo brew cask install --appdir=/Applications firefox
+brewdo brew cask install --appdir=/Applications telegram
 brewdo brew cask install --appdir=/Applications google-chrome
 brewdo brew cask install --appdir=/Applications filezilla
 brewdo brew cask install --appdir=/Applications gimp
@@ -19,12 +20,15 @@ brewdo brew cask install --appdir=/Applications sublime-text
 brewdo brew cask install --appdir=/Applications disk-inventory-x
 brewdo brew cask install --appdir=/Applications gpgtools
 brewdo brew cask install --appdir=/Applications iterm2
+brewdo brew cask install --appdir=/Applications tower
 brewdo brew cask install --appdir=/Applications sqlitebrowser
 brewdo brew cask install --appdir=/Applications postman
 brewdo brew cask install --appdir=/Applications sequel-pro
 brewdo brew cask install --appdir=/Applications the-unarchiver
 brewdo brew cask install --appdir=/Applications virtualbox
 brewdo brew cask install --appdir=/Applications virtualbox-extension-pack
+brewdo brew cask install --appdir=/Applications vlc
+brewdo brew cask install --appdir=/Applications spotify
 
 # Quicklook plugins yeah
 sudo chmod 775 /Library/QuickLook
